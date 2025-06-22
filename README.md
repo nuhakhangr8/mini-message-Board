@@ -1,3 +1,2 @@
-A simple message me form 
-An oden project Assignment
+A simple message me form oden project 
 https://www.theodinproject.com/lessons/node-path-nodejs-mini-message-board
