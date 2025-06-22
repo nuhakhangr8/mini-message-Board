@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="/css/styles.css">
+    <title>Messages</title>
+</head>
+<body>
+        <h1>Hello <%# messages[0].text %>!</h1>
+        <% messages.forEach((message) => {%>
+                <li>From: <%= message.user %> <br>
+                "<%= message.message %>" <br>
+                sent on:<%= message.added %></li>
+
+      <% }) %>
+         </ul>
+         <a href="http://localhost:3000/new" class="messageButton">Send a New Message!</a>
+    </body>
+</html>
+</body>
+</html>
